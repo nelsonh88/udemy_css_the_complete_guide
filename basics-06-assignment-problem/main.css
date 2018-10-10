@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: blue;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+.different-code {
+  color: green;
+}
+
+body li {
+  font-family: 'Shadows Into Light', cursive;
+  background: black;
+  color: white;
+}
+
+li + li {
+  font-family: 'Shadows Into Light', cursive;
+  background: none;
+  color: black;
+}
+
+ol > li {
+  background: black;
+  color: white;
+}
