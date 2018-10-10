@@ -5,3 +5,5 @@
 5. Set a default font (e.g. sans-serif) for the entire content of your page and use "Inheritance" to change the font of the <li> items, too.
 6. Use a combinator to give all <li> elements but the first one (!) a black background and white text color (don't worry if the numbers disappear).
 7. Use another combinator to now give all <li> inside an <ol> element a black background and white text color.
+
+I found this assignment relatively easy. 
