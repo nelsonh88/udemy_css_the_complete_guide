@@ -42,14 +42,28 @@
 .main-nav_item a {
   text-decoration: none;
   color: #0d4f1f;
+  padding: 3px 0;
+  font-weight: bold;
 }
 
-.main-nav_item a:hover {
-  color: white;
-}
-
+.main-nav_item a:hover,
 .main-nav_item a:active {
   color: white;
+  border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a{
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none;
 }
 
 body {
@@ -58,7 +72,7 @@ body {
 }
 
 #product-overview {
-  background: #ff1b68;
+  background: url("../assets/images/freedom.jpg");
   width: 100%;
   height: 528px;
   padding: 10px;

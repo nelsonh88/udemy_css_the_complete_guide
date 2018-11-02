@@ -1,0 +1,19 @@
+.box-1,
+.box-2 {
+  border: 20px solid green;
+  padding: 10px 5px 15px 20px;
+  margin: 30px 25px 20px 15px;
+  display: inline-block;
+
+}
+
+.box-1 {
+  height: 300px;
+  width: 50%;
+  display: none;
+}
+
+.box-2 p:hover,
+.box-2 p:active {
+  border-bottom: 5px solid red;
+}
